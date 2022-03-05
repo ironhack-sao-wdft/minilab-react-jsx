@@ -7,15 +7,19 @@ function ToDoList() {
         "Fazer Minilab",
     ];
     return (
-        <div>
-            <ul>
-               {tasks.map((currentElement) => {
-                   return <li>{currentElement}</li>
-                }
-                )} 
-            </ul>
-        </div>
-    )          
+        <ul className="list-group">
+            {tasks.map((currentElement) => {
+                return <li className="list-group-item">
+                <input 
+                class="form-check-input me-1" 
+                type="checkbox" 
+                value="" 
+                aria-label="..."/>
+                {currentElement}</li>
+            }
+            )} 
+        </ul>
+    )       
 }
 
 export default ToDoList;

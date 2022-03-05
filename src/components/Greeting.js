@@ -1,8 +1,6 @@
 function Greeting() {
     let name = 'Thaís';
-    return (
-     <h1>Olá, {name}!</h1>
-    );
+    return <h1>Olá, {name}!</h1>;
 }
 
 export default Greeting;
