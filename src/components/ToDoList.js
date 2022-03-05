@@ -8,7 +8,7 @@ const tasks = [
 
 function ToDoList() {
   return (
-    <ul class="list-group">
+    <ul className="list-group">
       {tasks.map((currentElement) => {
         return (
           <li className="list-group-item">

@@ -2,10 +2,10 @@ import puppy from "../assets/images/puppy.jpg";
 
 function Profile() {
   return (
-    <div className="card">
+    <div className="card" style={{ width: "18rem" }}>
       <img src={puppy} className="card-img-top" alt="puppy" />
       <div className="card-body">
-        <h1>Cute Puppy</h1>
+        <h5>Cute Puppy</h5>
         <p className="card-text">
           {" "}
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
