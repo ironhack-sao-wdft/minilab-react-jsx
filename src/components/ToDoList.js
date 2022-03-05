@@ -8,11 +8,14 @@ const tasks = [
 
 function ToDoList() {
     return (
-        <ul className = "list-group">
+        <ul className = "list-group mb-3">
             {tasks.map((task) => {
-                return <li className = "list-group-item">
-                    <input className = "form-check-input me-1" type = "checkbox"></input> 
-                        {task}</li>;
+                return (
+                <li className = "list-group-item">
+                <input className = "form-check-input me-1" type = "checkbox"/> 
+                {task}
+                </li>
+                )
             })}
         </ul>
     )

@@ -3,7 +3,7 @@ import ProfilePhoto from "../assets/images/puppy.jpg";
 
 function Profile() {
     return (
-        <div className = "card" style = {{width: "18rem"}}>
+        <div className = "card mb-3" style = {{width: "18rem"}} >
             <img src = {ProfilePhoto} className = "card-img-top" alt = "Puppy"/>
                 <div className = "card-body">
                     <h5 className = "card-title"> Cute Puppy </h5>
